@@ -1,0 +1,15 @@
+	js
+replace jquery with vanilla.js  // may be it is not needed
+avoid double elements initialization in both watchers
+fix hidinig\showing links
+make painter
+
+	css
+apply padding to all containers in one place
+add icons
+add font sizes
+
+	general
+greeting as a card
+add contacts
+push to github

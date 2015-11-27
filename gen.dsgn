@@ -1,0 +1,41 @@
+	portfolio project
+	general design doc
+	the purpose of software:
+* to help people make a desicion about portfolio creator skills
+* to help portfolio creator public his projects
+	the world:
+		top:
+greeting:
+	desc: the object that contains user welcome message
+	role: to introduce visitor the meaning of this page
+greeting person:
+	desc: who makes the greeting
+	role: to make the contact between project, visitor & project creator
+links:
+	desc: portfolio project github & codepen links
+	role: to make a tech-inside project tour
+		content:
+project[]:
+	desc: the project to introduce to visitor
+	role: to deliver visitor an overview, links to project sources, detail description, and live demo
+
+	prTop:
+		title, name
+		logo, thmbnail
+	links // are in top when in center mask, and in overview when in center mask
+	overview
+		technologies
+		purpose
+		tips and trics
+	tests
+	...
+		footer:
+contacts:
+	desc: contacts information, links to web-social, git-hub... possibly about me
+
+	photo
+	name
+	links
+	expirence
+	hobbies
+	...
