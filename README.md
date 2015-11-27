@@ -1,3 +1,4 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/mialso/pen/wKNazg.
+This project created as part of educational program at FreeCodeCamp http://www.freecodecamp.org
+You can also view demo at http://codepen.io/mialso/pen/wKNazg.
 
  

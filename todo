@@ -1,7 +1,5 @@
 	js
-replace jquery with vanilla.js  // may be it is not needed
-avoid double elements initialization in both watchers
-fix hidinig\showing links
+avoid double elements initialization in watchers
 make painter
 
 	css
@@ -10,6 +8,3 @@ add icons
 add font sizes
 
 	general
-greeting as a card
-add contacts
-push to github
