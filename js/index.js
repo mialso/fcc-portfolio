@@ -10,8 +10,6 @@ $(document).ready(function() {
     initLogoHover(i);
     initWatcher(i, footWatcher);
   }
-  //scrollMonitor.update();
-  //scrollMonitor.recalculateLocations();
 });
 function initLogoHover(i) {
   var thmb = $("#thmbCont".concat(i)).find(".thmb");
@@ -107,14 +105,12 @@ function initFootr() {
     }
     if(!contWatcher.isInViewport) {
       for (var i=0; i<5; i++) {
-        //if(cents[i].children().length === 0) {
-          if(i==4) {
-            tops[i].append(thmbs[i]);
-          } else {
-            tops[i].append(thmbs[i]);
-            cents[i].append(descs[i]);
-          }
-        //}
+        if(i==4) {
+          tops[i].append(thmbs[i]);
+        } else {
+          tops[i].append(thmbs[i]);
+          cents[i].append(descs[i]);
+        }
       }
     }
   });
